@@ -1,12 +1,12 @@
 <?php
 
-namespace MarceloEatWorld\FalAI;
+namespace Tristanfrn\FalAI;
 
-use MarceloEatWorld\FalAI\Data\GenerationData;
-use MarceloEatWorld\FalAI\Requests\CreateRequest;
-use MarceloEatWorld\FalAI\Requests\CheckStatus;
-use MarceloEatWorld\FalAI\Requests\GetResult;
-use MarceloEatWorld\FalAI\Requests\CancelRequest;
+use Tristanfrn\FalAI\Data\GenerationData;
+use Tristanfrn\FalAI\Requests\CreateRequest;
+use Tristanfrn\FalAI\Requests\CheckStatus;
+use Tristanfrn\FalAI\Requests\GetResult;
+use Tristanfrn\FalAI\Requests\CancelRequest;
 
 class GenerationsResource extends Resource
 {

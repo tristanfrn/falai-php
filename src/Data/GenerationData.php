@@ -1,6 +1,6 @@
 <?php
 
-namespace MarceloEatWorld\FalAI\Data;
+namespace Tristanfrn\FalAI\Data;
 
 use Exception;
 use Saloon\Http\Response;

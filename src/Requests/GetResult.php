@@ -1,8 +1,8 @@
 <?php
 
-namespace MarceloEatWorld\FalAI\Requests;
+namespace Tristanfrn\FalAI\Requests;
 
-use MarceloEatWorld\FalAI\Data\GenerationData;
+use Tristanfrn\FalAI\Data\GenerationData;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Http\Response;

@@ -1,3 +1,5 @@
+Fork from marceloeatworld's work
+
 # FAL AI PHP Client
 
 A lightweight PHP client for [FAL.AI](https://fal.ai) built with Saloon v3. Create AI-powered content with ease.
@@ -15,13 +17,13 @@ A lightweight PHP client for [FAL.AI](https://fal.ai) built with Saloon v3. Crea
 ## Installation
 
 ```bash
-composer require marceloeatworld/falai-php
+composer require Tristanfrn/falai-php
 ```
 
 ## Quick Start
 
 ```php
-use MarceloEatWorld\FalAI\FalAI;
+use Tristanfrn\FalAI\FalAI;
 
 $falAI = new FalAI('your-api-key');
 
@@ -129,7 +131,7 @@ public function register()
 Use in controllers:
 
 ```php
-use MarceloEatWorld\FalAI\FalAI;
+use Tristanfrn\FalAI\FalAI;
 
 public function generate(FalAI $falAI)
 {
