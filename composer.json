@@ -1,6 +1,6 @@
 {
     "name": "tristanfrn/falai-php",
-    "description": "A PHP client for the Fal AI API",
+    "description": "A PHP client for the Fal AI API - Fork from marceloeatworld",
     "keywords": ["fal-ai", "php", "package"],
     "license": "MIT",
     "authors": [
