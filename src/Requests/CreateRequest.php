@@ -17,10 +17,11 @@ class CreateRequest extends Request implements HasBody
 
     protected function getBasePath(string $path): string 
     {
-        $parts = explode('/', $path);
-        if (count($parts) > 2 && $parts[0] === 'fal-ai') {
-            return $parts[0] . '/' . $parts[1];
-        }
+        // Fix for long models
+        // $parts = explode('/', $path);
+        // if (count($parts) > 2 && $parts[0] === 'fal-ai') {
+        //     return $parts[0] . '/' . $parts[1];
+        // }
         return $path;
     }
 
