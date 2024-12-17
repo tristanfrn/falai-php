@@ -1,5 +1,5 @@
 {
-    "name": "marceloeatworld/falai-php",
+    "name": "tristanfrn/falai-php",
     "description": "A PHP client for the Fal AI API",
     "keywords": ["fal-ai", "php", "package"],
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Marcelo Pereira",
             "email": "diagngo@gmail.com"
+        },
+        {
+            "name": "Tristan Farneau",
+            "email": "tristan@kraftech.io"
         }
     ],
     "require": {
@@ -15,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MarceloEatWorld\\FalAI\\": "src/"
+            "Tristanfrn\\FalAI\\": "src/"
         }
     },
     "autoload-dev": {
